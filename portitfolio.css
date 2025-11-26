@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5dc;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #006400, #FFD700, #1E90FF);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.8em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.projeto {
+  background-color: #ffffff;
+  border-left: 6px solid #009c3b;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.projeto h2 {
+  margin-top: 0;
+  font-size: 1.6em;
+  color: #006400;
+}
+
+.projeto p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.projeto a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1E90FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.projeto a:hover {
+  background-color: #FFD700;
+  color: #333;
+}
+
+footer {
+  background-color: #FFD700;
+  color: #006400;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Quadrado exclusivo para Transportadora */
+.transportadora-card {
+  background-color: #ffffff;
+  border: 3px solid #1E90FF;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.transportadora-card h2 {
+  color: #1E90FF;
+}
+
+.transportadora-card a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  background-color: #006400;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.transportadora-card a:hover {
+  background-color: #FFD700;
+  color: #333;
+}
+
+/* Quadrados para Trabalhos e Figma */
+.trabalhos-list, .figma-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.trabalhos-list li, .figma-list li {
+  background-color: #ffffff;
+  border: 2px solid #009c3b;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.trabalhos-list li:hover, .figma-list li:hover {
+  transform: translateY(-5px);
+}
+
+.trabalhos-list a, .figma-list a {
+  display: block;
+  padding: 10px;
+  background-color: #1E90FF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.trabalhos-list a:hover, .figma-list a:hover {
+  background-color: #FFD700;
+  color: #333;
+}
